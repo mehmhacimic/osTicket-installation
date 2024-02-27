@@ -20,9 +20,9 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 
 - Windows 10</b> (22H2)
 
-<h2>List of Installation Files</h2>
+<h2>Installation Files</h2>
 
-https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+[CLICK ME](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 
 <h2>Part 1: Create Virtual Machine in Azure</h2>
 
@@ -40,4 +40,17 @@ Create a Windows 10 Virtual Machine (VM) with 2-4 Virtual CPUs:
 - Allow the creation of a new Virtual Network (Vnet).
 
 <h2>Part 2: Installation </h2>
+
+Step 1: Installation Files
+- Open the [INSTALLATION FILES](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) link provided.
+
+Step 2: Install/Enable IIS in Windows
+- Open "Control Panel" on the Windows VM.
+- Navigate to "Programs" -> "Turn Windows features on or off."
+- Check the following:
+    - World Wide Web Services -> Application Development Features -> [X] CGI, [X] Common HTTP Features
+    - Internet Information Services -> Web Management Tools -> [X] IIS Management Console
+
+Step 3: Install PHP Manager for IIS
+- Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi).
 
