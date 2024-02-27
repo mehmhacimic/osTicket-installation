@@ -24,12 +24,12 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 
 [CLICK ME](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 
-<h2>Part 1: Create Virtual Machine in Azure</h2>
+<h2>Part 1: Create a Virtual Machine in Azure</h2>
 
 Create a Resource Group:
 - Log in to the Azure Portal.
-- Click on "Create a resource" and search for "Resource group".
-- Click on "Create" and provide a name for the new resource group, choose a region, and click "Review + create" and then "Create".
+- Click "Create a resource" and search for "Resource group".
+- Click "Create" and provide a name for the new resource group, choose a region, and click "Review + create" and then "Create".
 
 Create a Windows 10 Virtual Machine (VM) with 2-4 Virtual CPUs:
 - Choose the appropriate Windows 10 image and follow the wizard to configure your VM.
