@@ -80,55 +80,50 @@ This tutorial outlines the installation of the open-source help desk ticketing s
     - Launch the Configuration Wizard after installation and choose Standard Configuration.
 
 9. Register PHP in IIS:
+    - Open IIS as an administrator.
+    - Register PHP from within IIS.
+    - Reload IIS:
+        - Stop and Start the IIS server.
 
-Open IIS as an administrator.
-Register PHP from within IIS.
-Reload IIS:
+10. Install osTicket v1.15.8:
+    - Download osTicket from the Installation Files Folder.
+    - Extract and copy the "upload" folder to C:\inetpub\wwwroot.
+    - Rename "upload" to "osTicket".
 
-Stop and Start the IIS server.
-Install osTicket v1.15.8:
+11. Reload IIS.
 
-Download osTicket from the Installation Files Folder.
-Extract and copy the "upload" folder to C:\inetpub\wwwroot.
-Rename "upload" to "osTicket".
-Reload IIS.
-Enable PHP Extensions:
+12. Enable PHP Extensions:
+    - Go to IIS -> sites -> Default -> osTicket.
+    - Double-click PHP Manager.
+    - Click "Enable or disable an extension".
+        - Enable: php_imap.dll, php_intl.dll, php_opcache.dll.
+    - Refresh the osTicket site in your browser.
 
-Go to IIS -> sites -> Default -> osTicket.
-Double-click PHP Manager.
-Click "Enable or disable an extension".
-Enable: php_imap.dll, php_intl.dll, php_opcache.dll.
-Refresh the osTicket site in your browser.
-Configure osTicket:
+13. Configure osTicket:
+    - Rename ost-config.php from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php.
+    - Assign permissions to ost-config.php (Disable inheritance, Remove All, New Permissions -> Everyone -> All).
 
-Rename ost-config.php from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php.
-Assign permissions to ost-config.php (Disable inheritance, Remove All, New Permissions -> Everyone -> All).
-Continue Setting up osTicket:
+14. Continue Setting up osTicket:
+    - In the browser, continue setting up osTicket by clicking "Continue".
+    - Provide the necessary information, such as Helpdesk name and default email.
 
-In the browser, continue setting up osTicket by clicking "Continue".
-Provide the necessary information, such as Helpdesk name and default email.
-Install HeidiSQL:
+15. Install HeidiSQL:
+    - Download and install HeidiSQL.
+    - Open HeidiSQL, create a new session (root/Password1), and connect to the session.
+    - Create a new database called "osTicket" using HeidiSQL.
 
-Download and install HeidiSQL.
-Open HeidiSQL, create a new session (root/Password1), and connect to the session.
-Create MySQL Database:
+16. Complete osTicket Setup:
+    - Finish setting up osTicket in the browser.
+        - MySQL Database: osTicket
+        - MySQL Username: root
+        - MySQL Password: Password1
+    - Click "Install Now!"
 
-Create a new database called "osTicket" using HeidiSQL.
-Complete osTicket Setup:
+**Clean Up:**
+    - Delete C:\inetpub\wwwroot\osTicket\setup.
+    - Set permissions to "Read" only for C:\inetpub\wwwroot\osTicket\include\ost-config.php.
 
-Finish setting up osTicket in the browser.
-MySQL Database: osTicket
-MySQL Username: root
-MySQL Password: Password1
-Click "Install Now!"
-Congratulations:
-
-Browse to your help desk login page: http://localhost/osTicket/scp/login.php.
-Clean Up:
-
-Delete C:\inetpub\wwwroot\osTicket\setup.
-Set permissions to "Read" only for C:\inetpub\wwwroot\osTicket\include\ost-config.php.
-Notes:
+**Congratulations! The setup is complete!**
 
 Browse to your help desk login page: http://localhost/osTicket/scp/login.php.
 End Users osTicket URL: http://localhost/osTicket/.
