@@ -39,3 +39,5 @@ Create a Windows 10 Virtual Machine (VM) with 2-4 Virtual CPUs:
   - Choose a size between 2-4 vCPUs.
 - Allow the creation of a new Virtual Network (Vnet).
 
+<h2>Part 2: Installation </h2>
+
