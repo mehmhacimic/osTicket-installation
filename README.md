@@ -19,14 +19,24 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> (22H2)
 
-<h2>List of Prerequisites</h2>
+<h2>List of Installation Files</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
-<h2>Installation Steps</h2>
+<h2>Part 1: Create Virtual Machine in Azure</h2>
+
+Create a Resource Group:
+- Log in to the Azure Portal.
+- Click on "Create a resource" and search for "Resource group".
+- Click on "Create" and provide a name for the new resource group, choose a region, and click "Review + create" and then "Create".
+
+Create a Windows 10 Virtual Machine (VM) with 2-4 Virtual CPUs:
+- Choose the appropriate Windows 10 image and follow the wizard to configure your VM.
+  - Name: OsTicketSetupTutorial
+  - Username: tutorial
+  - Password: osTicketPassword1!
+  - Choose a size between 2-4 vCPUs.
+- Allow the creation of a new Virtual Network (Vnet).
+
