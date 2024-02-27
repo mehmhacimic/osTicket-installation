@@ -120,6 +120,7 @@ This tutorial outlines the installation of the open-source help desk ticketing s
     - Click "Install Now!"
 
 **Clean Up:**
+    
     - Delete C:\inetpub\wwwroot\osTicket\setup.
     - Set permissions to "Read" only for C:\inetpub\wwwroot\osTicket\include\ost-config.php.
 
