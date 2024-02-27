@@ -127,6 +127,7 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 **Congratulations! The setup is complete!**
 
 Browse to your help desk login page: http://localhost/osTicket/scp/login.php.
+
 End Users osTicket URL: http://localhost/osTicket/.
 
 
