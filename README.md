@@ -28,7 +28,7 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 
 Create a Resource Group:
 - Log in to the Azure Portal.
-- Click "Create a resource" and search for "Resource group".
+- Search for "Resource groups" in the top search bar.
 - Click "Create" and provide a name for the new resource group, choose a region, and click "Review + create" and then "Create".
 
 Create a Windows 10 Virtual Machine (VM) with 2-4 Virtual CPUs:
