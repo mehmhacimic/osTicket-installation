@@ -20,9 +20,17 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 
 - Windows 10</b> (22H2)
 
-<h2>Installation Files</h2>
-
+<h2>List of Prerequisites and Installation Files</h2>
 [CLICK ME](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
+
+- IIS
+- PHP Manager
+- Rewrite Module
+- PHP 7.3.8
+- VC_redistx86
+- MySQL
+- HeidiSQL
+- osTicket v1.15.8
 
 <h2>Part 1: Create a Virtual Machine in Azure</h2>
 
@@ -45,7 +53,7 @@ This tutorial outlines the installation of the open-source help desk ticketing s
     - Open the [INSTALLATION FILES](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) link provided.
 
 2. Install/Enable IIS in Windows
-    - Open "Control Panel" on the Windows VM.
+    - Open the "Control Panel" on the Windows VM.
     - Navigate to "Programs" -> "Turn Windows features on or off."
     - Check the following:
         - World Wide Web Services -> Application Development Features -> [X] CGI, [X] Common HTTP Features
