@@ -51,7 +51,7 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 <h2>Part 2: Installation </h2>
 
 1. Installation Files
-    - Open the [INSTALLATION FILES](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) link provided.(**IN THE VIRTUAL MACHINE**)
+    - Open the [INSTALLATION FILES](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) link provided (**IN THE VIRTUAL MACHINE**)
 
 2. Install/Enable IIS in Windows
     - Open the "Control Panel" on the Windows VM.
