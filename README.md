@@ -74,8 +74,8 @@ This tutorial outlines the installation of the open-source help desk ticketing s
      
 8. Download and Install MySQL:
     - Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi).
-    - Choose a Typical Setup and set the password to "Password1".
-    - Launch the Configuration Wizard after installation and choose Standard Configuration.
+    - Choose a Typical Setup.
+    - Launch the Configuration Wizard after installation, choose Standard Configuration, and set the password to whatever you would like(for this tutorial I will use "Password1")
 
 9. Register PHP in IIS:
     - Open IIS as an administrator.
