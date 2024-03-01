@@ -92,7 +92,7 @@ This tutorial outlines the installation of the open-source help desk ticketing s
     - Extract and copy the "upload" folder to C:\inetpub\wwwroot.
     - Rename "upload" to "osTicket".
 
-11. Reload IIS and navigate to [http://localhost/osTicket/scp/login.php] in your virtual machine
+11. Reload IIS and navigate to (http://localhost/osTicket/scp/login.php) in your virtual machine.
 
 12. Enable PHP Extensions:
     - Go to IIS -> sites -> Default -> osTicket.
