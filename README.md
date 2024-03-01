@@ -103,7 +103,12 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 
 13. Configure osTicket:
     - Rename ost-config.php from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php.
-    - Assign permissions to ost-config.php (Disable inheritance, Remove All, New Permissions -> Everyone -> All).
+    - Assign permissions to ost-config.php (Disable inheritance, Remove All, Add -> Select a principle -> Everyone(check names) -> All).
+    ![image](https://github.com/mehmhacimic/osTicket-installation/assets/157438082/5732352a-4d31-4efd-9b93-ec9b0398b77a)
+    ![image](https://github.com/mehmhacimic/osTicket-installation/assets/157438082/f3e0b45a-25f8-4e4d-847e-2281c7d80336)
+    ![image](https://github.com/mehmhacimic/osTicket-installation/assets/157438082/25166b45-6336-4509-b79c-ac7cd410b74e)
+
+      
 
 14. Continue Setting up osTicket:
     - In the browser, continue setting up osTicket by clicking "Continue".
