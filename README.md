@@ -118,6 +118,12 @@ This tutorial outlines the installation of the open-source help desk ticketing s
     - Download and install HeidiSQL.
     - Open HeidiSQL, create a new session (root/Password1), and connect to the session.
     - Create a new database called "osTicket" using HeidiSQL.
+    ![image](https://github.com/mehmhacimic/osTicket-installation/assets/157438082/2f9bb40e-b39c-4236-916c-76a9634877a9)
+    ![image](https://github.com/mehmhacimic/osTicket-installation/assets/157438082/ce11e517-2b64-41a9-889e-46e01e6ee6dc)
+    ![image](https://github.com/mehmhacimic/osTicket-installation/assets/157438082/296c9d86-fb94-4d3c-95c3-1ea93e0eef56)
+
+
+
 
 16. Complete osTicket Setup:
     - Finish setting up osTicket in the browser.
@@ -130,6 +136,9 @@ This tutorial outlines the installation of the open-source help desk ticketing s
     
     - Delete C:\inetpub\wwwroot\osTicket\setup.
     - Set permissions to "Read" only for C:\inetpub\wwwroot\osTicket\include\ost-config.php.
+![image](https://github.com/mehmhacimic/osTicket-installation/assets/157438082/1afeb266-8717-4fa7-b917-1842d36ee115)
+![image](https://github.com/mehmhacimic/osTicket-installation/assets/157438082/a91955dc-569c-440a-b950-983e8fcbc227)
+
 
 **Congratulations! The setup is complete!**
 
