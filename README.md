@@ -43,7 +43,8 @@ This tutorial outlines the installation of the open-source help desk ticketing s
        - Password: osTicketPassword1!
        - Choose a size between 2-4 vCPUs.
     - Allow the creation of a new Virtual Network (Vnet).
-
+3. Log into Virtual Machine.
+   
 <h2>Part 2: Installation </h2>
 
 1. Installation Files
