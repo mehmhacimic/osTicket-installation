@@ -80,6 +80,7 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 9. Register PHP in IIS:
     - Open IIS as an administrator.
     - Register PHP from within IIS.
+          - Choose php-cgi as the file path when prompted.
     - Reload IIS:
         - Stop and Start the IIS server.
 ![image](https://github.com/mehmhacimic/osTicket-installation/assets/157438082/418a72b5-8e5a-4e48-9b81-7800530abd2c)
