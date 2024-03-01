@@ -56,6 +56,7 @@ This tutorial outlines the installation of the open-source help desk ticketing s
     - Check the following:
         - World Wide Web Services -> Application Development Features -> [X] CGI, [X] Common HTTP Features
         - Internet Information Services -> Web Management Tools -> [X] IIS Management Console
+![image](https://github.com/mehmhacimic/osTicket-installation/assets/157438082/cee65396-6072-411b-a4ba-35c1ec484232)
 
 3. Install PHP Manager for IIS
     - Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi).
