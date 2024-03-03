@@ -18,7 +18,7 @@ This tutorial will guide you through the installation of the open-source help de
 
 <h2>List of Prerequisites and Installation Files</h2>
 
-[CLICK ME](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
+[List of Files](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 
 - IIS
 - PHP Manager
